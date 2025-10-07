@@ -1,4 +1,4 @@
-# sjsu-data226-FA25
+#Stock-analysis-prediction
 
 Design analytical databases with dimensional and NoSQL data models; 
 Deploy data analytics applications with SQL programming; perform data cleansing, extract, transform, and load (ETL) operations for data warehouses;
