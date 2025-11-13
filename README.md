@@ -1,3 +1,7 @@
+We implemented a secure, reproducible stock analytics workflow using Airflow, yfinance, and Snowflake. An ETL DAG ingests OHLCV data into RAW.STOCK_PRICES. A second DAG trains a Snowflake-native SNOWFLAKE.ML.FORECAST model and writes predictions to MODEL.FORECASTS. A final table, ANALYTICS.FINAL_PRICES_FORECAST, unions actuals and forecasts for downstream visualization. All Snowflake credentials (account, user, password, role, warehouse, database) are stored only in Airflow Connections, and pipeline parameters are managed via Airflow Variables.
+
+
+
 Stock Analytics Pipeline — Airflow × Snowflake × yfinance
 
 Secure, reproducible pipeline that ingests OHLCV data, trains a Snowflake-native forecast model, and serves a finalized table for downstream BI.
