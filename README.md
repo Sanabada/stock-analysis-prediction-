@@ -49,7 +49,7 @@ RAW.STOCK_PRICES – normalized OHLCV with symbol, date, open, high, low, close,
 MODEL.FORECASTS – model outputs (symbol, forecast_date, target_date, yhat, yhat_lower, yhat_upper, model_meta).
 
 ANALYTICS.FINAL_PRICES_FORECAST – unioned actuals + forecasts for easy consumption.
-Secure secret management with Airflow Connections<img width="2000" height="2588" alt="image" src="https://github.com/user-attachments/assets/8faca74d-378d-41ee-a5fb-1e2ce852ecd7" />
+<img width="1048" height="570" alt="image" src="https://github.com/user-attachments/assets/776cca2a-7eba-4fc6-9e28-a71b0a214037" />
 
 🧩 Airflow DAGs
 
